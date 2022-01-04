@@ -26,15 +26,13 @@ p{
 .colorful{
     color: #8845F4;
 }
-.top-banner{
+.banner{
     display: flex;
-}
-.partition{
     margin-bottom: 150px;
 }
 .content{
     width: 50%;
-    margin-left: 5%;
+    padding: 0 5%;
 }
 .link-button{
     text-decoration: none;
@@ -46,6 +44,5 @@ p{
     border-radius: 20px;
 }
 .content img{
-    width: 50%;
-    padding-left: 10%;
+    width: 80%;
 }
