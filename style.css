@@ -19,6 +19,10 @@ h3{
     font-size: 20px;
     color: #777;
 }
+h4{
+    text-transform: capitalize;
+    color: #8845F4;
+}
 p{
     text-align: justify;
     color: #777;
@@ -28,7 +32,6 @@ p{
 }
 .banner{
     display: flex;
-    margin-bottom: 100px;
 }
 .content{
     width: 50%;
@@ -37,6 +40,7 @@ p{
 .link-button{
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: #fff;
     font-weight: 700;
     background-color: #8845F4;
@@ -45,4 +49,17 @@ p{
 }
 .content img{
     width: 80%;
+}
+.experience-area{
+    width: 90%;
+    background-color: #EEFBFF;
+    padding: 3% 2%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.experience-area-items{
+    padding: 0 2%;
+}
+footer{
+    margin-top: 50px;
 }
